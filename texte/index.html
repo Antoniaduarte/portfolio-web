@@ -2,16 +2,16 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portfólio Pessoal</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/SEU-KIT.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/SEU-KIT.js"  crossorigin="anonymous"></script>
 </head>
 <body>
 
+  <!-- Header -->
   <header class="header">
-    <img src="./foto minha portifolio.jpeg
-    " alt="Logo" class="logo" />
+    <img src="./foto minha portifolio.jpeg" alt="Foto de Perfil" class="logo" />
     <h2>Meu Portfólio</h2>
     <nav class="nav">
       <a href="#inicio">Início</a>
@@ -20,76 +20,81 @@
     </nav>
   </header>
 
+  <!-- Main Content -->
   <main>
-    <section id="inicio" class="section projetos">
+    <!-- Projects Section -->
+    <section id="inicio" class="section">
       <h3>Meus Projetos</h3>
-      <div class="cards">
 
-        <!-- Pequenos -->
+      <!-- Cards Pequenos -->
+      <div class="card-group">
         <div class="card pequeno">
-          <img src="assets/projeto-pequeno1.jpg" alt="Projeto Pequeno 1" />
-          <h4>To-do List</h4>
-          <a href="https://github.com/seuusuario/todo-list" target="_blank">Ver no GitHub</a>
+          <img src="hellokitty.jpg" alt="Portfólio Web" />
+          <h4>Portfólio Web</h4>
+          <a href="https://github.com/Antoniaduarte/portfolio-web.git"  target="_blank">Ver no GitHub</a>
         </div>
-
         <div class="card pequeno">
-          <img src="assets/projeto-pequeno2.jpg" alt="Projeto Pequeno 2" />
-          <h4>Calculadora</h4>
-          <a href="https://github.com/seuusuario/calculadora" target="_blank">Ver no GitHub</a>
+          <img src="hellokitty.jpg" alt="Exercícios sobre vetores em Java" />
+          <h4>Exercícios sobre vetores em Java</h4>
+          <a href="https://github.com/Antoniaduarte/exxercicioslogicajava.git"  target="_blank">Ver no GitHub</a>
         </div>
+      </div>
 
-        <!-- Médios -->
+      <!-- Cards Médios -->
+      <div class="card-group">
         <div class="card medio">
-          <img src="assets/projeto-medio1.jpg" alt="Projeto Médio 1" />
-          <h4>Blog Pessoal</h4>
-          <a href="https://github.com/seuusuario/blog-pessoal" target="_blank">Ver no GitHub</a>
+          <img src="hellokitty2.jpg" alt="Formulários em HTML e CSS" />
+          <h4>Formulários em HTML e CSS</h4>
+          <a href="https://github.com/Antoniaduarte/formularios-html-css.git"  target="_blank">Ver no GitHub</a>
         </div>
-
         <div class="card medio">
-          <img src="assets/projeto-medio2.jpg" alt="Projeto Médio 2" />
-          <h4>Clima App</h4>
-          <a href="https://github.com/seuusuario/clima-app" target="_blank">Ver no GitHub</a>
+          <img src="hellokitty2.jpg" alt="Primeiraauladogith" />
+          <h4>Primeiraauladogith</h4>
+          <a href="https://github.com/Antoniaduarte/Aula1Github.git"  target="_blank">Ver no GitHub</a>
         </div>
+      </div>
 
-        <!-- Grandes -->
+      <!-- Cards Grandes -->
+      <div class="card-group">
         <div class="card grande">
-          <img src="assets/projeto-grande1.jpg" alt="Projeto Grande 1" />
-          <h4>Loja Online</h4>
-          <a href="https://github.com/seuusuario/loja-online" target="_blank">Ver no GitHub</a>
+          <img src="hellokitty.jpg" alt="Currículo HTML e CSS" />
+          <h4>Currículo HTML e CSS</h4>
+          <a href="https://github.com/Antoniaduarte/introducaoWebAula1.git"  target="_blank">Ver no GitHub</a>
         </div>
-
         <div class="card grande">
-          <img src="assets/projeto-grande2.jpg" alt="Projeto Grande 2" />
-          <h4>Dashboard Financeiro</h4>
-          <a href="https://github.com/seuusuario/dashboard" target="_blank">Ver no GitHub</a>
+          <img src="hellokitty.jpg" alt="Box model em HTML e CSS" />
+          <h4>Box model em HTML e CSS</h4>
+          <a href="https://github.com/Antoniaduarte/listaexercicios.git"  target="_blank">Ver no GitHub</a>
         </div>
-
       </div>
     </section>
 
-    <section id="sobre" class="section sobre">
+    <!-- About Section -->
+    <section id="sobre" class="section">
       <h3>Sobre Mim</h3>
-      <div class="apresentacao">
-        <aside class="curriculo">
+      <div class="about-content">
+        <div class="info">
           <h4>Currículo</h4>
-          <p><strong>Nome:</strong> Antônia Eduarda Morate Duarte </p>
-          <p><strong>Formação:</strong> Cursando T.I</T></p>
-          <p><strong>Experiência:</strong> Técnico em informatica</p>
-          <a href="assets/curriculo.pdf" target="_blank">Ver PDF</a>
-        </aside>
-        <aside class="objetivos">
+          <p><strong>Nome:</strong> Antônia Eduarda Morate Duarte</p>
+          <p><strong>Formação:</strong> Cursando T.I</p>
+          <p><strong>Experiência:</strong> Técnico em informática</p>
+          <p><strong>Línguas:</strong> Português nativo e inglês intermediário.</p>
+        </div>
+        <div class="goals">
           <h4>Objetivos Profissionais</h4>
-          <p></p>
-        </aside>
+          <p>Busco oportunidades na área de desenvolvimento front-end e análise de sistemas.</p>
+        </div>
       </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer" id="contato">
-    <p>Contato: seuemail@email.com</p>
-    <div class="redes">
-      <a href="https://github.com/seuusuario" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/seuusuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <p>Email: antoniamorateduarte15@gmail.com</p>
+    <p>Instagram: @antoniadrt___</p>
+    <p>Whatsapp: (51) 993255463</p>
+    <div class="socials">
+      <a href="https://github.com/Antoniaduarte"  target="_blank"><i class="fab fa-github"></i></a>
     </div>
   </footer>
 
